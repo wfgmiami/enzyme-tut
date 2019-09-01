@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Header from './component/header';
+import './app.scss';
 
 class App extends Component {
   constructor(props){
@@ -13,6 +15,7 @@ class App extends Component {
 
     return (
       <div>
+        <Header/>
       </div>
     );
 
