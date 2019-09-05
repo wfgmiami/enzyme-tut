@@ -36,6 +36,5 @@ Headline.propTypes = {
   }))
 }
 
-
 export default Headline
 
