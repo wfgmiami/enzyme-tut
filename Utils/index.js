@@ -22,4 +22,3 @@ export const testStore = (initialState) => {
     return createStoreWithMiddleware(rootReducer, initialState)
 }
 
-

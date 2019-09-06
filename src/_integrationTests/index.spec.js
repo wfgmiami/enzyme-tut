@@ -26,6 +26,7 @@ describe('fetchPosts action', () => {
     }]
 
     const store = testStore();
+
     moxios.wait( () => {
       const request = moxios.requests.mostRecent();
       request.respondWith({
@@ -41,5 +42,9 @@ describe('fetchPosts action', () => {
     })
 
   })
+
 })
+
+
+
 
