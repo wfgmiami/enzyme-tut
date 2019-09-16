@@ -1,7 +1,6 @@
 import React from 'react';
 import {findByTestAttr, checkProps} from '../../../Utils';
 import { shallow } from 'enzyme';
-
 import SharedButton from './index';
 
 describe('SharedButton Component', () => {
@@ -52,8 +51,11 @@ describe('SharedButton Component', () => {
 
     })
 
-
   })
 
 })
+
+
+
+
 

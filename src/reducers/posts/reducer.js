@@ -1,5 +1,4 @@
 import { types } from './../../actions/types';
-import { type } from 'os';
 
 export default( (state=[], action) => {
 
@@ -10,3 +9,8 @@ export default( (state=[], action) => {
       return state;
   }
 })
+
+
+
+
+
