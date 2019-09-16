@@ -10,7 +10,7 @@ class Headline extends Component {
   render() {
 
     const {header, desc} = this.props;
-
+    console.log('headline ', this.props)
     if(!header) {
       return null
     }

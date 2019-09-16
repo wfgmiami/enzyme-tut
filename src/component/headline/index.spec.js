@@ -82,8 +82,7 @@ describe('Headline Component', () => {
 
     })
 
-
-
   })
 })
+
 
